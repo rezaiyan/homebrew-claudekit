@@ -1,9 +1,9 @@
 class Claudekit < Formula
   desc "Quality-of-life hooks for Claude Code: memory, notifications, quality guards, and TUI"
   homepage "https://github.com/rezaiyan/claudekit"
-  url "https://github.com/rezaiyan/claudekit/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "9475378f58b0aeb9c09972c4140d4b229a9103fc6e9b94e0c9df08d9226faa17"
-  version "0.2.0"
+  url "https://github.com/rezaiyan/claudekit/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "3df5117a555d6223aa7d0c0f64ab8090c0040e1e5a71abd208b384afbbb125c8"
+  version "0.3.0"
   license "MIT"
 
   head "https://github.com/rezaiyan/claudekit.git", branch: "main"
