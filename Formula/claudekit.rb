@@ -35,10 +35,10 @@ class Claudekit < Formula
       Run the TUI to manage tools:
         claudekit
 
-      To use the Claude Code plugin (hooks + memory), install via Claude Code:
-        /plugin marketplace add rezaiyan/claude-plugins
-        /plugin install claudekit@rezaiyan
+      To activate hooks and memory, register the Claude Code plugin:
+        sh /opt/homebrew/opt/claudekit/libexec/install.sh
 
+      Then restart Claude Code.
     EOS
   end
 
